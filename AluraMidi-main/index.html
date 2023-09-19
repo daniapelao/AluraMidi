@@ -14,6 +14,7 @@
     <link rel="icon" type="image/png" href="images/bateria.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="main.js"></script>
 
 </head>
 <body>
@@ -21,7 +22,7 @@
     <h1>Alura Midi</h1>
 
     <section class="teclado">
-        <button class="tecla tecla_pom">Pom</button>
+        <button onclick="alert('Pom')" class="tecla tecla_pom">Pom</button>
         <button class="tecla tecla_clap">Clap</button>
         <button class="tecla tecla_tim">Tim</button>
 
@@ -34,7 +35,7 @@
         <button class="tecla tecla_tom">Tom</button>
     </section>
 
-    <audio src="sounds/keyq.wav" id="som_tecla_pom"></audio>
+    <audio  src="sounds/keyq.wav" id="som_tecla_pom"></audio>
     <audio src="sounds/keyw.wav" id="som_tecla_clap"></audio>
     <audio src="sounds/keye.wav" id="som_tecla_tim"></audio>
     <audio src="sounds/keya.wav" id="som_tecla_puff"></audio>
